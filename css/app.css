@@ -1,0 +1,119 @@
+html {
+    font-family: sans-serif; 
+}
+
+body {
+    background-color: #0d2235;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.container-image{
+    text-align: center;
+}
+
+img{
+    max-width: 500px;
+    max-height: 250px;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    height: auto;
+    margin-bottom: 1.5rem; 
+    text-align: center;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+}
+
+select {
+    height: 38px;
+    padding: 6px 10px; 
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    margin-bottom: 1.5rem; 
+}
+
+select:focus {
+    border: 1px solid #33C3F0;
+    outline: 0; 
+}
+
+.error {
+    background-color: #b7322c;
+    padding: 1rem;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.resultado {
+    color: white;
+
+}
+
+.resultado h2 {
+    font-weight: bold;
+    color: white;
+}
+
+.resultado p {
+    font-size: 18px !important;
+    color: white;
+}
+
+.resultado p span {
+    font-weight: bold;
+    color: white;
+}
+
+p.precio {
+    font-size: 30px !important;
+    color: white;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.button-primary {
+    color: #FFF;
+    background-color: #33C3F0;
+    border-color: #33C3F0;
+}
+
+.button-primary:hover {
+    color: #FFF;
+    background-color: #1EAEDB;
+    border-color: #1EAEDB;
+}

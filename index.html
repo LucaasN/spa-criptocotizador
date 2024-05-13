@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>CriptoCotizador</h1>
+
+        <div class="container-image">
+            <img src="img/logo-criptomonedas.png">
+        </div>
+
+        <form id="formulario">
+            <label>Selecciona el tipo de moneda</label>
+            <select class="full-width" id="moneda" name="moneda">
+                <option value="" disabled selected>Selecciona la moneda</option>
+                <option value="USD">Dolar</option>
+                <option value="ARS">Peso</option>
+                <option value="GBP">Libra</option>
+                <option value="EUR">Euro</option>
+            </select>
+            <label>Selecciona el tipo de criptomoneda</label>
+            <select class="full-width" id="criptomonedas" name="criptomoneda">
+                <option value="" disabled selected>Selecciona la criptomoneda</option>
+            </select>
+            <input class="button-primary full-width" type="submit" value="Cotizar" />
+            <div id="resultado" class="resultado"></div>
+        </form>
+
+    </div>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
